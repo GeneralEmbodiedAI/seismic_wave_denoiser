@@ -2,9 +2,9 @@
 
 ## Abstract
 
-Denoising of scismic waveform signal is crucial for seismic monitoring and seismological research. To this end, we propose an
-end-to-end deep learning method for denoising seismic waveforms. The method
-combines the deep convolutional network with multi-head self-attention
+Denoising of scismic waveform signal is crucial for seismic monitoring and seismological research.
+To this end, we propose an end-to-end deep learning method for denoising seismic waveforms.
+The method combines the deep convolutional network with multi-head self-attention
 mechanism. We employ residual encoder-decoder structure, which is particularly
 well-suited for processing signals with complex backgrounds and rich details,
 while the multi-head self-attention mechanism can capture long-range
@@ -49,4 +49,11 @@ To evaluate the model, please run:
 
 ```python
 python inference.py
+```
+
+## Citation
+
+Please cite us at:
+```textile
+Comming soon!
 ```
