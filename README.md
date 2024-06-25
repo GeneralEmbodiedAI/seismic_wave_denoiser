@@ -30,7 +30,7 @@ Download dataset from [zenodo](https://zenodo.org/records/11094536]).
 Then, put four files of `train_noise.hdf5`, `train.hdf5`, `test_noise.hdf5` and `test.hdf5` into `./datas` folder.
 
 ### Weights
-Download weights from [Google Drive](https://drive.google.com/file/d/14BMXpXG57MKqMny6Qyf3vJxnp4GT05D3/view?usp=drive_link) or [KuaKe NetDisk](ttps://pan.quark.cn/s/c726b97f6734)
+Download weights from [Google Drive](https://drive.google.com/file/d/14BMXpXG57MKqMny6Qyf3vJxnp4GT05D3/view?usp=drive_link) or [KuaKe NetDisk](https://pan.quark.cn/s/c726b97f6734).
 
 Then, put the file to './saved_model' folder.
 
