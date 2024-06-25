@@ -25,7 +25,7 @@ significance for seismic monitoring and seismological research.
 
 ### Preparation
 
-Download dataset from [zenodo](https://zenodo.org/records/11094536]).
+Download dataset from [zenodo](https://zenodo.org/records/11094536).
 
 Then, put four files of `train_noise.hdf5`, `train.hdf5`, `test_noise.hdf5` and `test.hdf5` into `./datas` folder.
 
