@@ -1,0 +1,32 @@
+io:
+  input: 'datas/train_noise.hdf5'
+  label: 'datas/train.hdf5'
+  eval_input: 'datas/test_noise.hdf5'
+  eval_label: 'datas/test.hdf5'
+  eval_result_folder: 'result_h5'
+  test_ratio: 0.1
+
+train:
+  epoch: 100000
+  batch_size: 64
+  num_workers: 8
+  log_folder: 'log'
+  model_save_folder: 'saved_model'
+  print_loss_frequency: 10
+  save_freq: 10
+  cuda_devices: '0'
+  # random segment range
+  min_samples: 0.8083  #5000
+  max_samples: 1  #24000
+  sample_rate: 100
+
+optimizer:
+  optimizer_type: 'adam'
+  learning_rate: 2e-4
+  weight_decay: 0
+  momentum: 0.9
+
+loss:
+  # support `ccc` and `mse`
+  image_loss_type: 'ccc'
+  spect_ratio: 0.05
